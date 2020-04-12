@@ -1,20 +1,24 @@
 @page{
     margin:0;
     border:0;
-    size:8.46in 12.99in;
+    size:215mm 330mm;
     }
 
 body{
     font-family: "Roboto";
     margin: 0px 0px 5px 0px;
 }
+
+.container h5{
+    font-weight: 700;
+}
 .header{
-    margin-top: -10px !important;
+    margin-top: 10px !important;
 }
 .header img{
    width: 100%;
 }
-.judul h3{
+.judul h4{
     font-weight: 700;
     text-transform: uppercase;
     margin-left: 10px;
@@ -22,7 +26,7 @@ body{
     text-align: center;
 }
 
-.judul h4{
+.judul h5{
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -46,8 +50,8 @@ body{
     height: 4cm;
     border: 1px solid #ccc; 
     text-align: center;
-    right: 100px;
-    bottom:70px;
+    right: 40px;
+    bottom:80px;
     
 }
 
@@ -83,7 +87,7 @@ body{
     margin-right: 10px;
 }
 .item{
-    margin-top: -15px;
+    margin-top: -20px;
     font-size: 20px;
     font-weight: 400;
 }
@@ -92,13 +96,11 @@ body{
     margin-top: 20px;
     margin-left: 50px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .container h4{
     font-weight: 700;
 }
-
-
 
 

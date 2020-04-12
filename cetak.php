@@ -35,12 +35,12 @@
         <img src="img/kopsmk1_2.png" alt="">
     </div>
     <div class="judul">
-        <h3>Bukti Pendaftaran <br>PPDB SMK Negeri 1 Karang Baru <br> TA 2020/2021</h3>
-        <h4><?= $no_pendaftaran; ?>/PSB/SMKN1/2020</h4>
+        <h4>Bukti Pendaftaran <br>PPDB SMK Negeri 1 Karang Baru <br> TA 2020/2021</h4>
+        <h5><?= $no_pendaftaran; ?>/PSB/SMKN1/2020</h5>
     </div>
   <div class="container">
     <div class="bagian1">
-        <h4>A.Biodata Calon Siswa</h4>
+        <h5>A.Biodata Calon Siswa</h5>
         <div class="bagian1-tabel">
             <table>
             
@@ -84,7 +84,7 @@
     </div>
 
     <div class="bagian2">
-        <h4>B.Data Orang Tua/Wali</h4>
+        <h5>B.Data Orang Tua/Wali</h5>
         <div class="bagian1-tabel">
             <table>
                 <tbody>
@@ -115,7 +115,7 @@
 
    
     <div class="bagian3">
-        <h4>C.Jurusan Pilihan & Nilai</h4>
+        <h5>C.Jurusan Pilihan & Nilai</h5>
         <div class="bagian1-tabel">
             <table>
                 <tbody>
@@ -150,7 +150,7 @@
     </div>
 
     <div class="bagian4">
-        <h4>D.Kelengkapan Berkas</h4>
+        <h5>D.Kelengkapan Berkas</h5>
         <div class="bagian4-box">
             <div class="row">
             <table>
