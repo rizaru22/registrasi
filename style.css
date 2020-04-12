@@ -1,0 +1,104 @@
+@page{
+    margin:0;
+    border:0;
+    size:8.46in 12.99in;
+    }
+
+body{
+    font-family: "Roboto";
+    margin: 0px 0px 5px 0px;
+}
+.header{
+    margin-top: -10px !important;
+}
+.header img{
+   width: 100%;
+}
+.judul h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.judul h4{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bagian1{
+    margin: 10px 10px 0px 30px;
+    position: relative;
+}
+.bagian1-tabel{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bagian1-img{
+    position: absolute;
+    width: 3cm;
+    height: 4cm;
+    border: 1px solid #ccc; 
+    text-align: center;
+    right: 100px;
+    bottom:70px;
+    
+}
+
+.bagian1-img p{
+    margin-top: 60px;
+}
+
+
+.bagian2{
+    margin: 30px 10px 0px 30px;
+    
+}
+
+.bagian3{
+    margin: 30px 10px 0px 30px;
+    
+}
+.bagian4{
+    margin: 30px 10px 0px 30px;
+    
+}
+
+.bagian4-box{
+    margin-left: 25px; 
+
+}
+
+.item .box{
+    width: 4mm;
+    height: 4mm;
+    border: 1px solid rgb(19, 18, 18);  
+    display: inline-block;
+    margin-right: 10px;
+}
+.item{
+    margin-top: -15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bagian5{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container h4{
+    font-weight: 700;
+}
+
+
+
+
