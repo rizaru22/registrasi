@@ -20,7 +20,7 @@ $values = $response->getValues();
     <!-- Akhir PHP -->
 
 
-<div class="judul mt-5"><h3>Daftar Calon Peserta Didik Baru</h3></div>
+<div class="judul mt-4"><h3>Daftar Calon Peserta Didik Baru</h3></div>
 <div class="col mt-2">
     <!-- Table -->
 

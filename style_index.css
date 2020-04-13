@@ -9,6 +9,7 @@ body{
 .nav-link {
     margin-top: 15px;
     color: white;
+    font-weight: 700;
 }
 
 .judul{
@@ -17,5 +18,15 @@ body{
 
 nav a:hover{
     color:#475cFd ;
+}
+
+nav h5{
+    font-weight: 700;
+}
+
+.card-header{
+    font-weight: 700;
+    color: white;
+    text-align: center;
 }
 

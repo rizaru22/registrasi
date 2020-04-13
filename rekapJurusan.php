@@ -102,7 +102,7 @@ $values = $response->getValues();
                 <li class="list-group-item d-flex justify-content-between align-items-center">Multimedia<span class="badge badge-success badge-pill"><?= $mm; ?></span></li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">Rekayasa Perangkat Lunak<span class="badge badge-success badge-pill"><?= $rpl; ?></span></li>
             </ul>
-            <div class="card-footer bg-primary">Pilihan 1</div>
+            
         </div>            
         </div>
         <div class="col-lg-6">
@@ -119,7 +119,7 @@ $values = $response->getValues();
                 <li class="list-group-item d-flex justify-content-between align-items-center">Multimedia<span class="badge badge-warning badge-pill"><?= $mm2; ?></span></li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">Rekayasa Perangkat Lunak<span class="badge badge-warning badge-pill"><?= $rpl2; ?></span></li>
             </ul>
-            <div class="card-footer bg-danger">Pilihan 2</div>
+            
         </div>            
 
         </div>
