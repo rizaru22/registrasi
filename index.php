@@ -14,12 +14,7 @@ require_once 'function_date.php';
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-  
-       <style>
-           body{
-               font-family:"Roboto";
-           }
-       </style>
+        <link href="style_index.css" rel="stylesheet">
     </head>
     <body>
 
@@ -40,14 +35,14 @@ $values = $response->getValues();
     <nav class="nav navbar-expand-lg bg-dark">
     
             <h5 class="mr-auto ml-5 mt-2" style="color : white;">
-             SMKN 1 Kr Baru
+             SMKN 1 <br> Kr Baru
             </h5>
             <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSebBvvyJ92ra6ZfRXqE0xca8_blmhwJ3lt7lOOUG-pT8FPuRw/viewform" target="_blank">Form Pendaftaran</a>
             <a class="nav-link" href="https://docs.google.com/spreadsheets/d/18iohLrBWRJE80nwgqkgjpVH8yHHlYUTEhprJU1B4TTY/edit#gid=45012603" target="_blank">Spreadsheet</a>
          
           </nav>
-
-<div class="col-lg mt-5">
+<div class="judul mt-5"><h3>Daftar Calon Peserta Didik Baru</h3></div>
+<div class="col-lg mt-2">
     <!-- Table -->
 
     <table id="example" class="table table-striped table-bordered" style="width:100%">
@@ -193,7 +188,11 @@ $values = $response->getValues();
     </div>
     <!-- Akhir Table -->
 <!-- Jurusan -->
-<div class="container mt-5 pb-5">
+
+<div class="container mt-5 pb-5 ">
+<div class="judul mb-5 ">
+        <h3>Rekapitulasi Pemilihan Jurusan</h3>
+    </div>
     <div class="row">
         <div class="col-lg-6">
             <div class="card">
