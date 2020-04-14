@@ -144,6 +144,11 @@
                         <td>:</td>
                         <td><?= ucwords($ambil_data['inggris']); ?></td>
                     </tr>
+                    <tr>
+                        <td width="250px">Prestasi</td>
+                        <td>:</td>
+                        <td><?= ucwords($ambil_data['prestasi']); ?></td>
+                    </tr>
                 </tbody>
             </table>
         </div>

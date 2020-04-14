@@ -48,31 +48,14 @@ $values = $response->getValues();
             </tr>';
         } else {
            // print "Name, Major:\n";
-           $rpl=0;
-           $mm=0;
-           $amp=0;
-           $ppt=0;
-           $atph=0;
-           $apat=0;
-           $aphp=0;
-           $atu=0;
-           $atp=0;
-
-
-           $rpl2=0;
-           $mm2=0;
-           $amp2=0;
-           $ppt2=0;
-           $atph2=0;
-           $apat2=0;
-           $aphp2=0;
-           $atu2=0;
-           $atp2=0;
-
+           
            $no=1;
 
             foreach ($values as $row) {
-                
+                $prestasi=(!empty($row[19])?$row[19]:'-');
+                $matematika=(!empty($row[16])?$row[16]:'0');
+                $indonesia=(!empty($row[17])?$row[17]:'0');
+                $inggris=(!empty($row[18])?$row[18]:'0');
                 $data=array(
                     "no"=>$no,
                     "nama"=> $row[1],
@@ -88,9 +71,10 @@ $values = $response->getValues();
                     "no_hp"=>$row[13],
                     "pilihan1"=>$row[14],
                     "pilihan2"=>$row[15],
-                    "matematika"=>$row[16],
-                    "indonesia"=>$row[17],
-                    "inggris"=>$row[18]);
+                    "matematika"=>$matematika,
+                    "indonesia"=>$indonesia,
+                    "inggris"=>$inggris,
+                    "prestasi"=>$prestasi);
 
             echo '<tr>
                 <td>'.$no.'</td>
