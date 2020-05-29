@@ -87,7 +87,7 @@ $values = $response->getValues();
 <div class="container mt-4">
 <div class="judul mb-4 "><h3>Rekapitulasi Pemilihan Jurusan</h3></div>
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 ">
         
             <div class="card">
                 <div class="card-header bg-primary">Pilihan 1</div>
@@ -105,7 +105,7 @@ $values = $response->getValues();
             
         </div>            
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 mt-2">
         <div class="card ">
                 <div class="card-header bg-danger">Pilihan 2</div>
             <ul class="list-group ">              

@@ -161,15 +161,20 @@
             <table>
                 <tr>
                     <td>
-                        <div class="item"><p><div class="box"></div>Pas Photo 3x4 5 Lembar</p></div>
-                        <div class="item"><p><div class="box"></div>Pas Photo 2x3 3 Lembar</p></div>
-                        <div class="item"><p><div class="box"></div>Foto Copy Raport (<i>Legalisir</i>) 2 Rangkap</p></div>
-                        <div class="item"><p><div class="box"></div>Surat Keterangan Sehat dan Tidak Buta Warna</p></div>
+                        <div class="item"><p><div class="box"></div>Pas Photo 3x4 dan 2x3 (<i>3 Lembar</i>)</p></div>
+                        <div class="item"><p><div class="box"></div>Foto Copy Raport semester 1 s.d 5(<i>Legalisir Kepsek</i>) </p></div>
+                        <?php 
+                        if(($ambil_data['pilihan1']=='Multimedia')||($ambil_data['pilihan1']=='Rekayasa Perangkat Lunak')||($ambil_data['pilihan1']=='Alat Mesin Pertanian')||($ambil_data['pilihan2']=='Alat Mesin Pertanian')){
+                          echo '<div class="item"><p><div class="box"></div>Surat Keterangan Sehat dan Tidak Buta Warna</p></div>';
+                        }
+                        ?>
+                        <div class="item"><p><div class="box"></div>Akte Kelahiran Asli</p></div> 
+                        
                     </td>
-                    <td valign="top">
-                        <div class="item"><p><div class="box"></div>Foto Copy Kartu Keluarga 1 lembar</p></div> 
-                        <div class="item"><p><div class="box"></div>Foto Copy Kartu NISN 1 lembar</p></div> 
-                    </td>
+                    <!-- <td valign="top">
+                        
+                        
+                    </td> -->
                 </tr>
             </table>
                
