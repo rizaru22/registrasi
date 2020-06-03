@@ -85,7 +85,7 @@ $values = $response->getValues();
                 //<td>'.tgl_indonesia($row[5]).'</td>
                 echo '<td>'.$row[7].'</td>
                 <td>'.$row[14].'</td>
-                <td>'.$row[15].'</td>
+                <td>'.$pilihan2.'</td>
                 <td>'.$row[13].'</td>
                 <td><button type="button" class="btn btn-success" onclick="cetak('.htmlentities(json_encode($data)).')">Print</button></td>
             </tr>';
