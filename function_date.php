@@ -2,8 +2,8 @@
 function tgl_indonesia($tgl){
    $nama_bulan = array(1=>"Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember");
 		
-	$tanggal = substr($tgl,3,2);
-	$bulan = $nama_bulan[(int)substr($tgl,0,2)];
+	$tanggal = substr($tgl,0,2);
+	$bulan = $nama_bulan[(int)substr($tgl,3,2)];
 	$tahun = substr($tgl,6,4);
 	
 	return $tanggal.' '.$bulan.' '.$tahun;		 
